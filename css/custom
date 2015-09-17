@@ -1,0 +1,4 @@
+.header {
+  height: 80%;
+  background: #f68076 url('images/brown.jpg') repeat center center fixed;
+}
