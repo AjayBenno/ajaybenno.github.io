@@ -1,4 +1,13 @@
-.header {
-  height: 80%;
-  background: #f68076 url('images/brown.jpg') repeat center center fixed;
+.section {
+    height: 100%;
+    padding-top: 20px;
+}
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
