@@ -3,7 +3,8 @@
     padding-top: 20px;
 }
 .section-1{
-	background: url("images/blue.jpg") no-repeat center center fixed; 
+	background-image: url("images/blue.jpg");
+	background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
