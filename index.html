@@ -12,14 +12,14 @@
   <link href="css/style2.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body class = "grey lighten-1">
-  <div class="container" id="conttest" >
+  <div class="container"  >
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Ajay Benno</h1>
         <div class="row center">
           <h5 class="header col s12 light">Student, Programmer, and Engineer</h5>
         </div>
         <br><br>
-    <div class="section">
+    <div class="section" id="section-test">
 
       <!--   Icon Section   -->
       <div class="row">
@@ -53,11 +53,11 @@
   <script src="js/init.js"></script>
 
   <script>
-    $(document).ready(function(){
-		    var options = [ {selector: '#conttest', offset: 500, callback: function(el) {
+	$(document).ready(function(){
+		    var options = [ {selector: '#section-test', offset: 200, callback: function(el) {
 		          Materialize.fadeInImage($(el));} }];
 		    Materialize.scrollFire(options);
-            });
+		    });
   </script>
   </body>
 </html>
