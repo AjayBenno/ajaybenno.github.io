@@ -12,7 +12,7 @@
   <link href="css/style2.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body class = "grey lighten-1">
-  <div class="container" >
+  <div class="container" id="conttest" >
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Ajay Benno</h1>
         <div class="row center">
@@ -54,7 +54,9 @@
 
   <script>
     $(document).ready(function(){
-            $('.modal-trigger').leanModal();
+		    var options = [ {selector: '#conttest', offset: 500, callback: function(el) {
+		          Materialize.fadeInImage($(el));} }];
+		    Materialize.scrollFire(options);
             });
   </script>
   </body>
