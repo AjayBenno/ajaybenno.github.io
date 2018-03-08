@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-03-08 Thu 15:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Iceland Trip Document</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Ajay" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Iceland Trip Document</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org2f64383">1. Packing</a></li>
+<li><a href="#org84b022f">2. Itinerary</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org2f64383" class="outline-2">
+<h2 id="org2f64383"><span class="section-number-2">1</span> Packing</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgbdeca67" class="outline-3">
+<h3 id="orgbdeca67"><span class="section-number-3">1.1</span> Packing Non Clothing</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org599830c" class="outline-4">
+<h4 id="org599830c"><span class="section-number-4">1.1.1</span> Passport</h4>
+</div>
+<div id="outline-container-org1ab15e3" class="outline-4">
+<h4 id="org1ab15e3"><span class="section-number-4">1.1.2</span> Phone Charger</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org84b022f" class="outline-2">
+<h2 id="org84b022f"><span class="section-number-2">2</span> Itinerary</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgc2c2d85" class="outline-3">
+<h3 id="orgc2c2d85"><span class="section-number-3">2.1</span> Monday March 12th - Pittsburgh</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgc7a04ec" class="outline-4">
+<h4 id="orgc7a04ec"><span class="section-number-4">2.1.1</span> Flight at 7pm.</h4>
+</div>
+<div id="outline-container-org49711eb" class="outline-4">
+<h4 id="org49711eb"><span class="section-number-4">2.1.2</span> Leave CMU by 4:45pm</h4>
+</div>
+</div>
+<div id="outline-container-org8170fff" class="outline-3">
+<h3 id="org8170fff"><span class="section-number-3">2.2</span> Tuesday March 13th - Iceland/ Reyjkavik</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org3381931" class="outline-4">
+<h4 id="org3381931"><span class="section-number-4">2.2.1</span> Land in Iceland 4:30 am</h4>
+</div>
+<div id="outline-container-org0409377" class="outline-4">
+<h4 id="org0409377"><span class="section-number-4">2.2.2</span> Pickup car from Lagoon car rentals, they should be waiting there(+354-515-2220)</h4>
+<div class="outline-text-4" id="text-2-2-2">
+</div>
+<ol class="org-ol">
+<li><a id="org231dcc8"></a>Order Number 30121<br /></li>
+<li><a id="org77c39eb"></a>Smiðjuvellir 3, 230 Keflavik (Address)<br /></li>
+</ol>
+</div>
+<div id="outline-container-org828a7e4" class="outline-4">
+<h4 id="org828a7e4"><span class="section-number-4">2.2.3</span> Drive to Reyjkavik</h4>
+</div>
+<div id="outline-container-org666ccdd" class="outline-4">
+<h4 id="org666ccdd"><span class="section-number-4">2.2.4</span> We should be getting there around 6am</h4>
+</div>
+<div id="outline-container-org8619244" class="outline-4">
+<h4 id="org8619244"><span class="section-number-4">2.2.5</span> Costco opens at 10am Kauptún 3, 210 Gardabaer, Iceland</h4>
+</div>
+<div id="outline-container-org5121f15" class="outline-4">
+<h4 id="org5121f15"><span class="section-number-4">2.2.6</span> Our airbnb is at <a href="https://goo.gl/maps/bDqiBAjUEiN2">Bræðraborgarstígur 7, 101 Reykjavík, Iceland</a></h4>
+</div>
+<div id="outline-container-orgab72333" class="outline-4">
+<h4 id="orgab72333"><span class="section-number-4">2.2.7</span> Mainly Shop around and explore today</h4>
+</div>
+</div>
+<div id="outline-container-org441229e" class="outline-3">
+<h3 id="org441229e"><span class="section-number-3">2.3</span> Wednesday March 14th - Skogafoss, Kirkujufel, Cabin</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-org3aa5004" class="outline-4">
+<h4 id="org3aa5004"><span class="section-number-4">2.3.1</span> Driving to olafsvik</h4>
+</div>
+<div id="outline-container-org87de206" class="outline-4">
+<h4 id="org87de206"><span class="section-number-4">2.3.2</span> <a href="https://goo.gl/maps/y2YQTerH5ey">Glymur</a> hike</h4>
+</div>
+<div id="outline-container-orgd23be3a" class="outline-4">
+<h4 id="orgd23be3a"><span class="section-number-4">2.3.3</span> Drive to kirkujufell</h4>
+</div>
+<div id="outline-container-org84daf22" class="outline-4">
+<h4 id="org84daf22"><span class="section-number-4">2.3.4</span> Get gas along way wherever we can.</h4>
+</div>
+<div id="outline-container-org5d91df8" class="outline-4">
+<h4 id="org5d91df8"><span class="section-number-4">2.3.5</span> Drive to cabin - <a href="https://goo.gl/maps/amb5T9VL7m32">Snæfellsnesvegur Traðir Snæfellsbær, Iceland 356 Iceland</a></h4>
+</div>
+</div>
+<div id="outline-container-org6d1b026" class="outline-3">
+<h3 id="org6d1b026"><span class="section-number-3">2.4</span> Thursday March 15th - Phingavilr, Golden Cirle</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-orga9f5849" class="outline-4">
+<h4 id="orga9f5849"><span class="section-number-4">2.4.1</span> Drive about 4ish hours to next airbnb</h4>
+</div>
+<div id="outline-container-orga902525" class="outline-4">
+<h4 id="orga902525"><span class="section-number-4">2.4.2</span> See Gullfoss Falls</h4>
+</div>
+<div id="outline-container-org521fd37" class="outline-4">
+<h4 id="org521fd37"><span class="section-number-4">2.4.3</span> <a href="https://goo.gl/maps/oDbEP3XKH4n">Airbnb location</a> - Ölfus, 816, Iceland Ölfus, 816 Iceland</h4>
+</div>
+</div>
+<div id="outline-container-org56460e1" class="outline-3">
+<h3 id="org56460e1"><span class="section-number-3">2.5</span> Friday March 16th - Hot Springs(Reykjadalur), Vik</h3>
+<div class="outline-text-3" id="text-2-5">
+</div>
+<div id="outline-container-org018a425" class="outline-4">
+<h4 id="org018a425"><span class="section-number-4">2.5.1</span> Hike Reykjadalur</h4>
+<div class="outline-text-4" id="text-2-5-1">
+</div>
+<ol class="org-ol">
+<li><a id="org46dd7ee"></a><a href="https://goo.gl/maps/iGDfzD1aHzR2">Reykjadalur Hot Springs, Reykjadalur, Iceland</a><br /></li>
+</ol>
+</div>
+<div id="outline-container-org1fcbb6e" class="outline-4">
+<h4 id="org1fcbb6e"><span class="section-number-4">2.5.2</span> Drive to Vik, see waterfalls on the way Seljalandsfoss</h4>
+</div>
+<div id="outline-container-orgd5dd2ce" class="outline-4">
+<h4 id="orgd5dd2ce"><span class="section-number-4">2.5.3</span> Skógafoss</h4>
+</div>
+<div id="outline-container-orgfeaead4" class="outline-4">
+<h4 id="orgfeaead4"><span class="section-number-4">2.5.4</span> Eyjafjallajökull Volcano</h4>
+</div>
+<div id="outline-container-org391d128" class="outline-4">
+<h4 id="org391d128"><span class="section-number-4">2.5.5</span> Vik</h4>
+<div class="outline-text-4" id="text-2-5-5">
+</div>
+<ol class="org-ol">
+<li><a id="orged5d062"></a>Black sand beach (Reynisfjara)<br /></li>
+</ol>
+</div>
+<div id="outline-container-orgd4fc200" class="outline-4">
+<h4 id="orgd4fc200"><span class="section-number-4">2.5.6</span> Make it to our airbnb - GPS: 63°40'24.0"N 18°25'04.0"W</h4>
+<div class="outline-text-4" id="text-2-5-6">
+</div>
+<ol class="org-ol">
+<li><a id="org7e241d0"></a>Wifi code: 4TND1F7FLJ7<br /></li>
+<li><a id="orgb85ab2a"></a>+354 7875599<br /></li>
+<li><a id="org317e721"></a><a href="https://www.goo.gl/maps/YJTEQGw7V4M2">Google Maps Link</a>k<br /></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org9a36ab9" class="outline-3">
+<h3 id="org9a36ab9"><span class="section-number-3">2.6</span> Saturday March 17th - GLACIER HIKE, Grindavik</h3>
+<div class="outline-text-3" id="text-2-6">
+</div>
+<div id="outline-container-org2499352" class="outline-4">
+<h4 id="org2499352"><span class="section-number-4">2.6.1</span> Glacier Hike today!</h4>
+<div class="outline-text-4" id="text-2-6-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgb865da2"></a><a href="https://goo.gl/maps/cFc541jshz62">Parking Lot</a><br /></li>
+<li><a id="org775eff8"></a>Leave by 8:15 am<br /></li>
+<li><a id="orgccde11b"></a>Arrive by 10:00 am<br /></li>
+<li><a id="org33b1961"></a>3 Hours<br /></li>
+<li><a id="org2dddebf"></a>Eat at vistor center since long ass drive next<br /></li>
+</ol>
+</div>
+<div id="outline-container-orgf52634f" class="outline-4">
+<h4 id="orgf52634f"><span class="section-number-4">2.6.2</span> Drive to <a href="https://goo.gl/maps/BXec25RDc4B2">Grindavik</a></h4>
+</div>
+</div>
+<div id="outline-container-org4860c86" class="outline-3">
+<h3 id="org4860c86"><span class="section-number-3">2.7</span> Sunday March 18th - Fly home</h3>
+<div class="outline-text-3" id="text-2-7">
+</div>
+<div id="outline-container-orgabf726f" class="outline-4">
+<h4 id="orgabf726f"><span class="section-number-4">2.7.1</span> Eat food in grindavik</h4>
+</div>
+<div id="outline-container-orgc5343a6" class="outline-4">
+<h4 id="orgc5343a6"><span class="section-number-4">2.7.2</span> Return car at 1pm to car rental place</h4>
+</div>
+<div id="outline-container-org3374cb4" class="outline-4">
+<h4 id="org3374cb4"><span class="section-number-4">2.7.3</span> Take off 3pm</h4>
+</div>
+<div id="outline-container-org450f3ca" class="outline-4">
+<h4 id="org450f3ca"><span class="section-number-4">2.7.4</span> Land around 6pm</h4>
+</div>
+<div id="outline-container-org83ef857" class="outline-4">
+<h4 id="org83ef857"><span class="section-number-4">2.7.5</span> We home</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Ajay</p>
+<p class="date">Created: 2018-03-08 Thu 15:57</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
